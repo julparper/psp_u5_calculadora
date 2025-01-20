@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: es.etg.psp.red.calculadora.ClienteTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! -- in es.etg.psp.red.calculadora.ClienteTest
+es.etg.psp.red.calculadora.ClienteTest -- Time elapsed: 0.041 s <<< ERROR!
+java.net.ConnectException: Conexión rehusada
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/java.net.Socket.connect(Socket.java:686)
+	at java.base/java.net.Socket.<init>(Socket.java:555)
+	at java.base/java.net.Socket.<init>(Socket.java:324)
+	at es.etg.psp.red.calculadora.ClienteTest.init(ClienteTest.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
