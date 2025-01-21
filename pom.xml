@@ -59,7 +59,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <!-- nombre del módulo/clase main. El nombre del módulo lo puedes sacar del modules.info y clase del main-->
-                            <mainClass>es.etg.prog.instituto/es.etg.prog.instituto.App</mainClass>
+                            <mainClass>es.etg.psp.red.calculadora.Servidor</mainClass>
                         </configuration>
                     </execution>
                 </executions>
